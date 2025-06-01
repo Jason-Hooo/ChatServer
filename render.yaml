@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: websocket-server
+    env: java
+    plan: free
+    buildCommand: "" # 不需要建置，因為你是直接用 jar
+    startCommand: java -jar ChatServer.jar
+    autoDeploy: true
+
