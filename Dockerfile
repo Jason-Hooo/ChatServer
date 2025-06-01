@@ -1,5 +1,4 @@
-
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:20-jdk
 
 WORKDIR /app
 
@@ -9,4 +8,4 @@ ENV PORT=10000
 
 EXPOSE ${PORT}
 
-CMD ["sh", "-c", "java -jar ChatServer.jar"]
+CMD ["java", "-jar", "ChatServer.jar"]
