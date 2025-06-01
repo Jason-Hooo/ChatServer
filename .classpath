@@ -6,5 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/jasonho/Downloads/Java-WebSocket-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jasonho/Downloads/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="/Users/jasonho/Downloads/slf4j-simple-1.7.36.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
