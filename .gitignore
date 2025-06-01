@@ -1,6 +1,21 @@
+# Eclipse IDE
 .settings/
 .project
 .classpath
+
+# Build output folder
 bin/
+
+# Logs and temp files
 *.log
 *.tmp
+
+# Java class files
+*.class
+
+# Jar files - 如果你想自己手動管理 Jar，可以不忽略，如果想不放大檔案就加上
+# *.jar
+
+# IDE / OS generated files
+.DS_Store
+Thumbs.db
